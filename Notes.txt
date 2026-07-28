@@ -46,3 +46,12 @@ Linux Distributions:
 	sys - OS - default device params and inits
 
 
+	basic file management
+	ls -l [l for long (detailed), h human readable , a all files including hidden] ls -lha
+
+	mkdir [dir_name] makes a new folder / dir
+	touch [filename] makes a new file
+
+	cp [-R = recursively]- copies
+	mv - Moves files and dirs
+	rm [-r] - deletes files -r deletes recursiveley
