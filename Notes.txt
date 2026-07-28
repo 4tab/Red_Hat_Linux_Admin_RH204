@@ -72,3 +72,29 @@ Linux Distributions:
 
 	nano(another lightweight editor built in to linux): ctrl + x to quit...
 
+	Organizing local users and groups:
+	view all users cat /etc/passwd
+	sudo -i - superuser do safe logged interactive requires wheel group for user
+	sudo rm /usr/bin/badapp removes badapp binary in a dirty fashion
+	now in sudo -i we have launshed a root(priviledged) shell:
+	useradd user1
+	passwd user1 - set passwd for user1 so they can login:
+	passwd -l user1 - locks account, -u unlock the acoount
+	usermod - modifies user eg -s /bin/zsh user1 change user shell to zsh
+	
+	groupadd devs- adds new group devs
+	groupmod -n(name) developers(new name) devs(old name)
+	groupdel developers deletes developers group
+	userdel user1 deletes user1 but keeps user1 home dir add -r to rm home dir , this is not recommended due to uid reassignment for new users so rather lock the account
+	id user1 shows(integer) user and group id 
+	
+	find(find files) /(from root dir) -uid(owned by user id) 1001 2>/dev/null (errors to void)
+	
+	usermod -aG wheel user1 adds user1 to admin(wheel) group
+	groups user1 which groups is user1 in
+	exit closes the current shell
+	
+	RHEL has idm for these
+	up and down buttons walks through the current shell history
+
+	su - , logs directly into root, but has no logging therefore unauditable
