@@ -4,3 +4,8 @@ Linux Distributions:
         Fedora Linux (Experimental playground)
 	CentOS Stream (More stable,testing ground influencing RHEL)
 	Redhat Linux Enterprise (polished version)
+
+	rpm package manager non apt , dpkg
+	"all open-source"
+	leap - for every 3 year major dist upgrade
+
