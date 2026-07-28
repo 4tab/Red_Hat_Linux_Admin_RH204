@@ -1,0 +1,6 @@
+Linux Distributions:
+    Linux Kernel: the base of all linux dists
+    RedHat Vendor Dists:
+        Fedora Linux (Experimental playground)
+	CentOS Stream (More stable,testing ground influencing RHEL)
+	Redhat Linux Enterprise (polished version)
