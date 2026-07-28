@@ -21,3 +21,14 @@ Linux Distributions:
 	to learn more "man man"
 	after reading man man try "man 5 tar"
 
+	RHEL offers lightspeed a terminal ai assistant for commands(requires subscription)
+	satellite, a redhat mirror offered but can be deployed on local network
+
+
+	navigation
+	:
+	ls lists current dir (directory)
+	ls / lists dir / can be folder name or file name or dir 
+	pwd prints out current working dir
+	usage: c chat "your question here"
+
