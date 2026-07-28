@@ -113,5 +113,24 @@ Linux Distributions:
 
 	chown user1 file1 - change ownership of file1 to user1
 	chown :devs file1 - devs group give new owners of file 1
-	:w
+	
+	Managing software and updates: in sudo -i
+	subscription-manager to manage your RHEL subscription
+	dnf - manages your subscription repos
+	dnf search thisapp
+	dnf install thisapp
+	dnf -y install thisapp installs app + dependancies without further interruption
+
+	Errata:
+	RedHatBugAdvisory RHBA
+	RHEnhancementA
+	RHSecurityA -Deals with CVEs
+
+	dnf updateinfo list -shows which update and Severity
+	dnf updateinfo info RHSA-2025:10854 - shows info about the specific RHSA fix(es)
+	dnf update - updates all updates --security only updates security patches or rather --sec-severity=Critical and or = Important to update the most dangerous vulnurabilities
+	dnf needs-restarting -r - checks if updates require a restart
+	reboot to reboot
+	 
+
 
