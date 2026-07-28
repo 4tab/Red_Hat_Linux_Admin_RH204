@@ -75,6 +75,7 @@ Linux Distributions:
 	Organizing local users and groups:
 	view all users cat /etc/passwd
 	sudo -i - superuser do safe logged interactive requires wheel group for user
+	sudo -i -u user2 -> logs in to user2's interactive shell
 	sudo rm /usr/bin/badapp removes badapp binary in a dirty fashion
 	now in sudo -i we have launshed a root(priviledged) shell:
 	useradd user1
@@ -98,3 +99,19 @@ Linux Distributions:
 	up and down buttons walks through the current shell history
 
 	su - , logs directly into root, but has no logging therefore unauditable
+
+	File Permissions
+	1 = x = execute = access
+	2 = w = write = change
+	4 = r = read = see
+	so 5  = rx =execute / run, 6 = wr, 7 =wrx
+
+	each file has Owner, owning group, other - everyone else
+	so 750 Owner can rwx, those in group can rx , everyone else cannot get to this file
+	chmod 744 file1 , owner rwx , group and everyone else can read only
+	chmod -R 744 /Books does the same but everything in book folder and deeper will have these permissions applied
+
+	chown user1 file1 - change ownership of file1 to user1
+	chown :devs file1 - devs group give new owners of file 1
+	:w
+
