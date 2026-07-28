@@ -32,3 +32,17 @@ Linux Distributions:
 	pwd prints out current working dir
 	usage: c chat "your question here"
 
+	from /
+	/var has your variables
+	usr has shared user resources, binaries - documentation
+	tmp - temporary
+	root is the superuser dir
+	boot - OS boot files
+	mnt - temp storage mount
+	run - stores current running program state...
+	bin - binaries(programs)
+	dev - devices
+	proc - device new config
+	sys - OS - default device params and inits
+
+
