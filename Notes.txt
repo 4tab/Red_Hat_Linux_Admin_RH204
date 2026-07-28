@@ -9,3 +9,15 @@ Linux Distributions:
 	"all open-source"
 	leap - for every 3 year major dist upgrade
 
+	(Terminal) shell- the command interpreter
+	hit tab to autocomplete - sometimes requires tab twice or additional uniqueness
+	: command [options] [args]
+	:eg
+	:: du -sh /some/dir (checks a filesize in human readable format
+
+	man
+	:documentation for commands
+	::eg man tar 
+	to learn more "man man"
+	after reading man man try "man 5 tar"
+
