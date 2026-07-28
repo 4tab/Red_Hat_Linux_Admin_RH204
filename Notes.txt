@@ -57,12 +57,18 @@ Linux Distributions:
 	rm [-r] - deletes files -r deletes recursiveley
 
 	vim (lightweight in terminal file editor)
+	vimtutor in shell to learn vim motions
 	:
 	runs using vim and vi [filename] a file name will create or edit existing file
 	Normal navigation, saving, exit, search, text replacement
-	:can be entered by ESC :w saves, ":q" quits 
+	:can be entered by ESC :w saves, ":q" quits if ! added at end force write...
+	y yank/copy ,p pastes, d + 1w , 2d .. d1w delete 1 word, 2lines
+	/some searches for some
+	u undo ,ctrl+r redo
 	Insert for editing and adding text
 	: can be entered from normal mode by pressing i
 	Visual mode for reading 
 	: press v
+
+	nano(another lightweight editor built in to linux): ctrl + x to quit...
 
